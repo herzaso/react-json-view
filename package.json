@@ -1,0 +1,39 @@
+{
+  "name": "react-json-view",
+  "version": "0.1.0",
+  "description": "A React library that renders a JSON structure",
+  "main": "build/index.js",
+  "scripts": {
+    "dev": "watch 'npm run build' src",
+    "build": "babel src -d build",
+    "test": "jest",
+    "test:watch": "npm test -- --watch"
+  },
+  "babel": {
+    "presets": [
+      "latest"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/herzaso/react-json-view.git"
+  },
+  "keywords": [
+    "react",
+    "json",
+    "view",
+    "render"
+  ],
+  "author": "Ofir Herzas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/herzaso/react-json-view/issues"
+  },
+  "homepage": "https://github.com/herzaso/react-json-view#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-latest": "^6.24.1",
+    "jest": "^21.0.2",
+    "watch": "^1.0.2"
+  }
+}
